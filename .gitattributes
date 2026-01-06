@@ -1,0 +1,2 @@
+# Enforce CRLF line endings for text files
+* text=auto eol=crlf
