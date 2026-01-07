@@ -19,7 +19,7 @@
   margin: 0 auto 40px;
 }
 
-h3 {
+.card__title {
   font-weight: 500;
   font-family: Roboto, sans-serif;
   font-size: 12px;
@@ -41,13 +41,13 @@ h3 {
 @import 'card';
 @import 'stars';
 
-.container_price {
+.card__price-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
 }
 
-.price {
+.card__price-label {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -55,7 +55,7 @@ h3 {
   color: #616070;
 }
 
-.valor {
+.card__price-value {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -63,7 +63,7 @@ h3 {
   color: #060b35;
 }
 
-.btn_buy {
+.card__buy-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ h3 {
   text-decoration: none;
 }
 
-.btn_buy:hover {
+.card__buy-button:hover {
   background-color: #fff;
   border: 1px solid #00acdc;
   color: #00acdc;
